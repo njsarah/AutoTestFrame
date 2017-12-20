@@ -1,0 +1,1756 @@
+__________________________________________________________________________
+
+Wed Dec 20 01:32:01 CST 2017
+
+Free Memory: 143786 kB
+Total Memory: 168843 kB
+
+java.class.path:
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData\IAClasses.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData\Execute.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\InstallerData\Execute.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData\Resource1.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\InstallerData\Resource1.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\InstallerData
+
+ZGUtil.CLASS_PATH:
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData\IAClasses.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData\Execute.zip
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\InstallerData
+
+sun.boot.class.path:
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\vm.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\annotation.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\beans.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\java.util.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\jndi.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\logging.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\security.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\sql.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmorb.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmorbapi.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmcfw.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\rt.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\charsets.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\resources.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmpkcs.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmcertpathfw.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmjgssfw.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmjssefw.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmsaslfw.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmjcefw.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmjgssprovider.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmjsseprovider2.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmcertpathprovider.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ibmxmlcrypto.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\management-agent.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\xml.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\jlm.jar
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\javascript.jar
+
+java.ext.dirs:
+    C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\lib\ext
+
+java.version                  == 1.6.0 (Java 1)
+java.vm.name                  == IBM J9 VM
+java.vm.vendor                == IBM Corporation
+java.vm.version               == 2.4
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Sun Microsystems Inc.
+java.vm.specification.version == 1.0
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Sun Microsystems Inc.
+java.specification.version    == 1.6
+java.vendor                   == IBM Corporation
+java.vendor.url               == http://www.ibm.com/
+java.class.version            == 50.0
+java.library.path             == C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre\bin;.;D:\Python27;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Google\Chrome\Application;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Users\dongqianqian\AppData\Local\GitHubDesktop\bin
+java.compiler                 == j9jit24
+java.home                     == C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows\resource\jre
+java.io.tmpdir                == C:\Users\DONGQI~1\AppData\Local\Temp\
+os.name                       == Windows 7
+os.arch                       == x86
+os.version                    == 6.1 build 7601 Service Pack 1
+path.separator                == ;
+file.separator                == \
+file.encoding                 == GB18030
+user.name                     == dongqianqian
+user.home                     == C:\Users\dongqianqian
+user.dir                      == C:\Users\dongqianqian\AppData\Local\Temp\I1513747741\Windows
+user.language                 == zh
+user.region                   == null
+__________________________________________________________________________
+
+Installed Feature(s) Samples, Docs, ExtSvcs, Langs, STAF, Codepage, Develop of STAF
+
+Install Begin: DECEMBER 20, 2017 1:29:33 PM CST
+Install End: DECEMBER 20, 2017 1:30:44 PM CST
+
+Installed by InstallAnywhere 17.0 Premier Build 5238
+
+
+User Interactions
+-----------------
+
+
+#Acceptance of the license agreement
+#-----------------------------------
+ACCEPT_LICENSE=1
+
+#Scope of environment/menu updates
+#---------------------------------
+UPDATE_ENVIRONMENT=System
+
+#Whether to start STAF on Login (Windows only)
+#---------------------------------------------
+START_ON_LOGIN=1
+
+#Whether to create Start menu icons/programs folder for STAF (Windows only)
+#--------------------------------------------------------------------------
+CREATE_START_MENU_ICONS=1
+
+#Whether to start the STAFProc window in normal state (visible on the desktop) or minimized (Windows only)
+#---------------------------------------------------------------------------------------------------------
+START_STAFPROC=Normal
+
+#The default TCP/IP version
+#--------------------------
+USE_TCP_VERSION=IPV4
+
+#The default Perl version
+#------------------------
+USE_PERL_VERSION=5.8
+
+#Whether to determine the version of Perl in the system PATH at install-time (if possible) and use that version of Perl by default
+#---------------------------------------------------------------------------------------------------------------------------------
+USE_PERL_SYSTEM_PATH=0
+
+#The default Python version
+#--------------------------
+USE_PYTHON_VERSION=2.7
+
+#Whether to determine the version of Python in the system PATH at install-time (if possible) and use that version of Python by default
+#-------------------------------------------------------------------------------------------------------------------------------------
+USE_PYTHON_SYSTEM_PATH=0
+
+#The default STAF instance name
+#------------------------------
+STAF_INSTANCE_NAME=STAF
+
+#Whether to automatically restart the Windows operating system if target files are in use during the STAF installation
+#---------------------------------------------------------------------------------------------------------------------
+
+#Choose Install Folder
+#---------------------
+USER_INSTALL_DIR=D:\\AutoTestFrame\\STAF
+
+#Choose Install Set
+#------------------
+CHOSEN_FEATURE_LIST=Samples,Docs,ExtSvcs,Langs,STAF,Codepage,Develop
+CHOSEN_INSTALL_FEATURE_LIST=Samples,Docs,ExtSvcs,Langs,STAF,Codepage,Develop
+CHOSEN_INSTALL_SET=Full
+
+#Registration Information
+#------------------------
+REGISTER=0
+REGISTRATION_NAME=
+REGISTRATION_EMAIL=
+REGISTRATION_ORG=
+
+#Install
+#-------
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\install.properties=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\FmtLog.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\IPv4\\STAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\IPv4\\STAFTCP.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\IPv6\\STAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\IPv6\\STAFTCP.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\JSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\JSTAF.jar=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\JSTAF.zip=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\JSTAFSH.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\pkgIndex.tcl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\PLSTAF.pm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\PLSTAFService.pm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\PySTAF.py=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\PySTAFv3.py=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\PySTAFLog.py=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\PySTAFMon.py=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\RXSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\RxThread.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAF.cfg=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAF.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAF.pl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAF.tcl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAF2.pl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFAnt.jar=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFDSLS.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFEXECPROXY.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFExecProxy.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFLIPC.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFLog.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFLog.pm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFLog.tcl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFLoop.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFMon.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFMon.pm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFMon.tcl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFPool.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFProc.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFProc.exe.manifest=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFProc.ico=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFReg.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFUtil.tcl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFZip.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFZlib.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\libeay32.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\ssleay32.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\msvcr120.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\CAList.crt=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFDefault.crt=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFDefault.key=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\STAFHTTPSLS.jar=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python22\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python23\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python24\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python25\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python26\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python27\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python30\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python31\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python32\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python33\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\python34\\PYSTAF.pyd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\tcl83\\TCLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\tcl84\\TCLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\tcl85\\TCLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\tcl86\\TCLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\alias.txt=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1004.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1006.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1008.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1038.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1041.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1043.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1047.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1051.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1088.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1089.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1098.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1112.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1114.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1115.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1116.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1117.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1118.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1119.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1123.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1141.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1142.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1143.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1144.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1145.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1146.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1147.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1148.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1149.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1153.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1154.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1155.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1156.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1157.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1158.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1159.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1160.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1164.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1250.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1251.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1252.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1253.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1254.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1255.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1256.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1257.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1258.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-12712.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1275.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1276.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1277.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1280.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1281.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1282.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1283.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1361.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1362.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1363.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1364.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1370.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1371.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1383.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1386.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1390.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-1399.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-16684.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-16804.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-17248.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-21427.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-273.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-277.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-278.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-280.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-284.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-285.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-290.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-297.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-37.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-420.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-424.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-437.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-4899.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-4909.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-4930.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-4971.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-500.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5104.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5123.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5210.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5346.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5347.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5349.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5350.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5351.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5352.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5353.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-5354.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-803.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-808.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-813.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-833.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-834.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-835.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-837.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-848.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-8482.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-849.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-850.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-852.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-855.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-856.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-857.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-858.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-859.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-860.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-861.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-862.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-863.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-864.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-865.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-866.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-867.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-868.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-869.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-871.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-872.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-874.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-878.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-891.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-897.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-901.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-902.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-9027.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-903.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-904.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-9044.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-9049.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-9061.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-907.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-909.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-910.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-912.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-913.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-914.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-915.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-916.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-920.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-921.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-922.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-923.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-9238.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-924.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-930.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-933.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-935.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-937.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-939.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-941.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-942.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-943.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-944.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-946.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-947.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-948.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-949.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-950.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-953.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-955.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-961.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-964.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\codepage\\ibm-970.bin=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\History=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFCMDS.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFDiag.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFFAQ.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFGS.pdf=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFHome.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFPerl.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFRC.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFUG.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\docs\\STAFInstall.pdf=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAF.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFCommandParser.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFCommandParserInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFDataTypes.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFDataTypesInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFDynamicLibrary.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFDynamicLibraryInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFError.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFEventSem.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFEventSemInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFException.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFFileSystem.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFFileSystemInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFLogService.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFMonitorService.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFMutexSem.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFMutexSemInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFOSTypes.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFProcess.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFProcessInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFRefPtr.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFResPoolService.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFServiceInterface.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFString.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFStringInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFThread.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFTimestamp.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFTimestampInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFTrace.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFTraceInlImpl.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAFUtil.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAF_fstream.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\include\\STAF_iostream.h=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\service.def=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\STAF.lib=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\STAFCPar.rxl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\STAFLog.rxl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\STAFMon.rxl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\STAFPool.rxl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\lib\\STAFUtil.rxl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\c\\LogIt.c=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\cpp\\LogIt.cpp=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\demo\\STAFDemo.jar=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\demo\\STAFDemoController.java=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\demo\\STAFProcess.java=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\genwl\\Sample.gwl=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\java\\JPing.java=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\misc\\OldVars.cfg=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\rexx\\PingTest.cmd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\rexx\\Sample1.cmd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\rexx\\Sample2.cmd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\rexx\\Sample3.cmd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\samples\\rexx\\Sample4.cmd=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\LICENSE.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\NOTICES.htm=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\Uninstall_STAF\\Uninstall_STAF.lax=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\Uninstall_STAF\\resource\\iawin32.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\Uninstall_STAF\\resource\\win64_32_x64.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\Uninstall_STAF\\resource\\remove.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\Uninstall_STAF\\resource\\invoker.exe=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\perl56\\PLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\perl58\\PLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\perl510\\PLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\perl512\\PLSTAF.dll=Yes
+-fileOverwrite_D\:\\AutoTestFrame\\STAF\\bin\\perl514\\PLSTAF.dll=Yes
+
+Summary
+-------
+
+Installation: Successful.
+
+421 Successes
+0 Warnings
+0 NonFatalErrors
+0 FatalErrors
+
+Action Notes:
+
+None
+
+Install Log Detail:
+
+Check Disk Space:         C:\STAF
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space:157,791,165 Bytes Free Disk Space:122,331,947,008 Bytes 
+
+Custom Action:            STAFRegisterRecordedVariables
+                          Status: SUCCESSFUL
+
+
+
+
+
+
+
+
+
+Check Disk Space:         D:\AutoTestFrame\STAF
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space:157,791,165 Bytes Free Disk Space:311,963,332,608 Bytes 
+
+Check Disk Space:         D:\AutoTestFrame\STAF
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space:157,791,165 Bytes Free Disk Space:311,963,332,608 Bytes 
+
+
+
+Custom Action:            STAFCheckPerlVersion
+                          Status: SUCCESSFUL
+
+Custom Action:            STAFCheckPythonVersion
+                          Status: SUCCESSFUL
+
+Custom Action:            STAFCheckTclVersion
+                          Status: SUCCESSFUL
+
+Check Disk Space:         D:\AutoTestFrame\STAF
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space:158,926,578 Bytes Free Disk Space:311,963,332,608 Bytes 
+
+Install Directory:        D:\AutoTestFrame\STAF\
+                          Status: SUCCESSFUL
+
+Set Environment Variable: PATH = D:\AutoTestFrame\STAF\bin
+                          Status: SUCCESSFUL
+
+Set Environment Variable: STAFCONVDIR = D:\AutoTestFrame\STAF\codepage
+                          Status: SUCCESSFUL
+
+Set Environment Variable: CLASSPATH = D:\AutoTestFrame\STAF\bin\JSTAF.jar
+                          Status: SUCCESSFUL
+
+Set Environment Variable: CLASSPATH = D:\AutoTestFrame\STAF\samples\demo\STAFDemo.jar
+                          Status: SUCCESSFUL
+
+Refresh Windows Environment:   
+                          Status: SUCCESSFUL
+
+Custom Action:            STAFCreateSTAFEnv
+                          Status: SUCCESSFUL
+
+Custom Action:            STAFCreateStartSTAFProc
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\install.properties
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\FmtLog.exe
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\IPv4\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\IPv4\STAF.dll
+                          Status: SUCCESSFUL
+
+Copy File:                Destination: D:\AutoTestFrame\STAF\bin\STAF.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\IPv4\STAFTCP.dll
+                          Status: SUCCESSFUL
+
+Copy File:                Destination: D:\AutoTestFrame\STAF\bin\STAFTCP.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\IPv6\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\IPv6\STAF.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\IPv6\STAFTCP.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\JSTAF.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\JSTAF.jar
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\JSTAF.zip
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\JSTAFSH.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\pkgIndex.tcl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\PLSTAF.pm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\PLSTAFService.pm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\PySTAF.py
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\PySTAFv3.py
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\PySTAFLog.py
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\PySTAFMon.py
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\RXSTAF.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\RxThread.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAF.cfg
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAF.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAF.pl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAF.tcl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAF2.pl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFAnt.jar
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFDSLS.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFEXECPROXY.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFExecProxy.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFLIPC.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFLog.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFLog.pm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFLog.tcl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFLoop.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFMon.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFMon.pm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFMon.tcl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFPool.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFProc.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFProc.exe.manifest
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFProc.ico
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFReg.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFUtil.tcl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFZip.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFZlib.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\libeay32.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\ssleay32.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\msvcr120.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\CAList.crt
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFDefault.crt
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFDefault.key
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\STAFHTTPSLS.jar
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python22\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python22\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python23\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python23\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python24\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python24\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python25\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python25\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python26\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python26\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python27\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python27\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Copy File:                Destination: D:\AutoTestFrame\STAF\bin\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python30\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python30\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python31\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python31\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python32\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python32\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python33\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python33\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\python34\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\python34\PYSTAF.pyd
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\tcl83\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\tcl83\TCLSTAF.dll
+                          Status: SUCCESSFUL
+
+Copy File:                Destination: D:\AutoTestFrame\STAF\bin\TCLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\tcl84\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\tcl84\TCLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\tcl85\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\tcl85\TCLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\tcl86\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\tcl86\TCLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\codepage\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\alias.txt
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1004.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1006.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1008.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1038.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1041.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1043.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1047.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1051.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1088.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1089.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1098.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1112.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1114.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1115.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1116.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1117.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1118.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1119.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1123.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1141.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1142.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1143.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1144.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1145.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1146.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1147.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1148.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1149.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1153.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1154.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1155.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1156.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1157.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1158.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1159.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1160.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1164.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1250.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1251.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1252.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1253.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1254.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1255.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1256.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1257.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1258.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-12712.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1275.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1276.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1277.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1280.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1281.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1282.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1283.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1361.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1362.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1363.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1364.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1370.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1371.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1383.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1386.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1390.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-1399.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-16684.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-16804.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-17248.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-21427.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-273.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-277.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-278.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-280.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-284.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-285.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-290.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-297.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-37.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-420.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-424.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-437.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-4899.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-4909.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-4930.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-4971.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-500.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5104.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5123.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5210.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5346.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5347.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5349.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5350.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5351.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5352.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5353.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-5354.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-803.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-808.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-813.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-833.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-834.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-835.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-837.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-848.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-8482.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-849.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-850.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-852.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-855.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-856.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-857.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-858.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-859.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-860.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-861.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-862.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-863.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-864.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-865.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-866.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-867.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-868.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-869.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-871.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-872.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-874.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-878.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-891.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-897.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-901.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-902.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-9027.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-903.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-904.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-9044.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-9049.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-9061.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-907.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-909.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-910.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-912.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-913.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-914.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-915.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-916.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-920.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-921.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-922.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-923.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-9238.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-924.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-930.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-933.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-935.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-937.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-939.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-941.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-942.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-943.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-944.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-946.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-947.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-948.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-949.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-950.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-953.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-955.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-961.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-964.bin
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\codepage\ibm-970.bin
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\docs\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\History
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFCMDS.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFDiag.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFFAQ.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFGS.pdf
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFHome.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFPerl.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFRC.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFUG.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\docs\STAFInstall.pdf
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\include\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAF.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFCommandParser.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFCommandParserInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFDataTypes.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFDataTypesInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFDynamicLibrary.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFDynamicLibraryInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFError.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFEventSem.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFEventSemInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFException.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFFileSystem.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFFileSystemInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFLogService.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFMonitorService.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFMutexSem.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFMutexSemInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFOSTypes.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFProcess.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFProcessInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFRefPtr.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFResPoolService.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFServiceInterface.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFString.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFStringInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFThread.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFTimestamp.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFTimestampInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFTrace.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFTraceInlImpl.cpp
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAFUtil.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAF_fstream.h
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\include\STAF_iostream.h
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\lib\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\service.def
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\STAF.lib
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\STAFCPar.rxl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\STAFLog.rxl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\STAFMon.rxl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\STAFPool.rxl
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\lib\STAFUtil.rxl
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\c\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\c\LogIt.c
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\cpp\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\cpp\LogIt.cpp
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\demo\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\demo\STAFDemo.jar
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\demo\STAFDemoController.java
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\demo\STAFProcess.java
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\genwl\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\genwl\Sample.gwl
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\java\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\java\JPing.java
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\misc\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\misc\OldVars.cfg
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\samples\rexx\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\rexx\PingTest.cmd
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\rexx\Sample1.cmd
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\rexx\Sample2.cmd
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\rexx\Sample3.cmd
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\samples\rexx\Sample4.cmd
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\LICENSE.htm
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\NOTICES.htm
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\Uninstall_STAF\
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      STAF(Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Create LaunchAnywhere:    resource jar is empty
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\jre
+                          Status: SUCCESSFUL
+
+Install JRE:              D:\AutoTestFrame\STAF\jre
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe
+                          Status: SUCCESSFUL
+
+
+Install File:             D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.lax
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\Uninstall_STAF\resource\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\Uninstall_STAF\resource\iawin32.dll
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\Uninstall_STAF\resource\win64_32_x64.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\Uninstall_STAF\resource\remove.exe
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\Uninstall_STAF\resource\invoker.exe
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: DisplayName
+                          Value Data: STAF
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: UninstallString
+                          Value Data: "D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: Publisher
+                          Value Data: IBM
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: URLUpdateInfo
+                          Value Data: http://staf.sourceforge.net
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: ProductID
+                          Value Data: 78fbc320-1ee9-11b2-bfbf-f3a634900050
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: InstallLocation
+                          Value Data: D:\AutoTestFrame\STAF
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: InstallDate
+                          Value Data: Wed Dec 20 13:30:39 CST 2017
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: HelpLink
+                          Value Data: http://staf.sourceforge.net
+                          Status: SUCCESSFUL
+
+Make Registry Entry:      Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF
+                          Value Name: DisplayVersion
+                          Value Data: 3.4.26.0
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      STAF(Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Install Directory:        C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Install Directory:        C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\
+                          Status: SUCCESSFUL
+
+Install Directory:        C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Uninstall STAF 3.4.26.lnk
+                          Status: SUCCESSFUL
+
+Install Directory:        C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Shutdown STAF 3.4.26.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Start STAF 3.4.26.lnk
+                          Status: SUCCESSFUL
+
+Install Directory:        C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF User's Guide.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Frequently Asked Questions.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\Getting Started with STAF.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Home Page.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Return Codes.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Commands.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Diagnostics Guide.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Installation Guide.lnk
+                          Status: SUCCESSFUL
+
+Install Directory:        C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Start STAF 3.4.26.lnk
+                          Status: SUCCESSFUL
+
+Create Shortcut:          C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Shutdown STAF 3.4.26.lnk
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\perl56\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\perl56\PLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\perl58\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\perl58\PLSTAF.dll
+                          Status: SUCCESSFUL
+
+Copy File:                Destination: D:\AutoTestFrame\STAF\bin\PLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Create Shortcut:          C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\STAFProc.lnk
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\perl510\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\perl510\PLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\perl512\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\perl512\PLSTAF.dll
+                          Status: SUCCESSFUL
+
+Install Directory:        D:\AutoTestFrame\STAF\bin\perl514\
+                          Status: SUCCESSFUL
+
+Install File:             D:\AutoTestFrame\STAF\bin\perl514\PLSTAF.dll
+                          Status: SUCCESSFUL
+
+
+Custom Action:            STAFCreateInstallProperties
+                          Status: SUCCESSFUL
+
+

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2017-12-20 13:30:37" version="1.1" last_modified="2017-12-20 13:30:44">
+	<products>
+		<product name="STAF" id="78fbc320-1ee9-11b2-bfbf-f3a634900050" upgrade_id="78fbc320-1ee9-11b2-bfbf-f3a634900050" version="3.4.26.0" copyright="2008" info_url="http://staf.sourceforge.net" support_url="http://staf.sourceforge.net" location="D:\AutoTestFrame\STAF" last_modified="2017-12-20 13:30:39">
+		<![CDATA[]]>
+			<vendor name="IBM" id="78fbc31f-1ee9-11b2-bfbf-f3a634900050" home_page="" email=""/>
+			<feature short_name="Samples" name="Samples and Demos" last_modified="2017-12-20 13:30:39">
+			<![CDATA[Samples and Demos]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="8d5f3b64-1ee9-11b2-81c8-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\samples\c\LogIt.c"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+			<feature short_name="Docs" name="Documentation" last_modified="2017-12-20 13:30:39">
+			<![CDATA[STAF documenation]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="8c8c258b-1ee9-11b2-82c7-f3a634900050" version="1.0.0.0" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF User&apos;s Guide.lnk"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+			<feature short_name="ExtSvcs" name="External Services" last_modified="2017-12-20 13:30:39">
+			<![CDATA[External STAF services (Log, Monitor, ResPool, Zip)]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="8c8d3565-1ee9-11b2-82cf-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\bin\STAFLog.dll"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+			<feature short_name="Langs" name="Language Support" last_modified="2017-12-20 13:30:39">
+			<![CDATA[STAF Language Support (Java, etc.)]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="8c8c7c27-1ee9-11b2-82cb-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\bin\JSTAF.dll"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+			<feature short_name="STAF" name="STAF Application" last_modified="2017-12-20 13:30:39">
+			<![CDATA[Core STAF application]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="7e236606-1ee9-11b2-8752-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\bin\FmtLog.exe"/>
+				<component ref_id="8d590caf-1ee9-11b2-808f-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\codepage\ibm-1252.bin"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+			<feature short_name="Codepage" name="Additional Codepage Support" last_modified="2017-12-20 13:30:39">
+			<![CDATA[Install all STAF codepages]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="8d590caf-1ee9-11b2-808f-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\codepage\ibm-1252.bin"/>
+				<component ref_id="8d59120e-1ee9-11b2-8091-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\codepage\ibm-1004.bin"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+			<feature short_name="Develop" name="Development Support" last_modified="2017-12-20 13:30:39">
+			<![CDATA[Service developer header files and libraries]]>
+				<component ref_id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe"/>
+				<component ref_id="8d5eafbd-1ee9-11b2-81b7-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\include\STAF.h"/>
+				<component ref_id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" location="D:\AutoTestFrame\STAF\jre"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="8c8c258b-1ee9-11b2-82c7-f3a634900050" version="1.0.0.0" name="AG- Docs" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF User&apos;s Guide.lnk" vendor="IBM">
+			<resource keyfile="false" name="docs" location="D:\AutoTestFrame\STAF\docs" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="History" location="D:\AutoTestFrame\STAF\docs\History" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFCMDS.htm" location="D:\AutoTestFrame\STAF\docs\STAFCMDS.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDiag.htm" location="D:\AutoTestFrame\STAF\docs\STAFDiag.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFFAQ.htm" location="D:\AutoTestFrame\STAF\docs\STAFFAQ.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFGS.pdf" location="D:\AutoTestFrame\STAF\docs\STAFGS.pdf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFHome.htm" location="D:\AutoTestFrame\STAF\docs\STAFHome.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFPerl.htm" location="D:\AutoTestFrame\STAF\docs\STAFPerl.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFRC.htm" location="D:\AutoTestFrame\STAF\docs\STAFRC.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFUG.htm" location="D:\AutoTestFrame\STAF\docs\STAFUG.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFInstall.pdf" location="D:\AutoTestFrame\STAF\docs\STAFInstall.pdf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Documentation" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="STAF User&apos;s Guide.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF User&apos;s Guide.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF Frequently Asked Questions.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Frequently Asked Questions.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="Getting Started with STAF.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\Getting Started with STAF.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF Home Page.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Home Page.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF Return Codes.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Return Codes.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF Commands.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Commands.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF Diagnostics Guide.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Diagnostics Guide.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF Installation Guide.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Documentation\STAF Installation Guide.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+		</component>
+		<component id="8d5eafbd-1ee9-11b2-81b7-f3a634900050" version="1.0.0.0" name="AG- Develop" location="D:\AutoTestFrame\STAF\include\STAF.h" vendor="IBM">
+			<resource keyfile="false" name="include" location="D:\AutoTestFrame\STAF\include" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="STAF.h" location="D:\AutoTestFrame\STAF\include\STAF.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFCommandParser.h" location="D:\AutoTestFrame\STAF\include\STAFCommandParser.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFCommandParserInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFCommandParserInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDataTypes.h" location="D:\AutoTestFrame\STAF\include\STAFDataTypes.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDataTypesInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFDataTypesInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDynamicLibrary.h" location="D:\AutoTestFrame\STAF\include\STAFDynamicLibrary.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDynamicLibraryInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFDynamicLibraryInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFError.h" location="D:\AutoTestFrame\STAF\include\STAFError.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFEventSem.h" location="D:\AutoTestFrame\STAF\include\STAFEventSem.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFEventSemInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFEventSemInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFException.h" location="D:\AutoTestFrame\STAF\include\STAFException.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFFileSystem.h" location="D:\AutoTestFrame\STAF\include\STAFFileSystem.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFFileSystemInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFFileSystemInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFLogService.h" location="D:\AutoTestFrame\STAF\include\STAFLogService.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMonitorService.h" location="D:\AutoTestFrame\STAF\include\STAFMonitorService.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMutexSem.h" location="D:\AutoTestFrame\STAF\include\STAFMutexSem.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMutexSemInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFMutexSemInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFOSTypes.h" location="D:\AutoTestFrame\STAF\include\STAFOSTypes.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProcess.h" location="D:\AutoTestFrame\STAF\include\STAFProcess.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProcessInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFProcessInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFRefPtr.h" location="D:\AutoTestFrame\STAF\include\STAFRefPtr.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFResPoolService.h" location="D:\AutoTestFrame\STAF\include\STAFResPoolService.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFServiceInterface.h" location="D:\AutoTestFrame\STAF\include\STAFServiceInterface.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFString.h" location="D:\AutoTestFrame\STAF\include\STAFString.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFStringInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFStringInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFThread.h" location="D:\AutoTestFrame\STAF\include\STAFThread.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTimestamp.h" location="D:\AutoTestFrame\STAF\include\STAFTimestamp.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTimestampInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFTimestampInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTrace.h" location="D:\AutoTestFrame\STAF\include\STAFTrace.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTraceInlImpl.cpp" location="D:\AutoTestFrame\STAF\include\STAFTraceInlImpl.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFUtil.h" location="D:\AutoTestFrame\STAF\include\STAFUtil.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF_fstream.h" location="D:\AutoTestFrame\STAF\include\STAF_fstream.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF_iostream.h" location="D:\AutoTestFrame\STAF\include\STAF_iostream.h" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="8c8d3565-1ee9-11b2-82cf-f3a634900050" version="1.0.0.0" name="AG- ExtSvcs" location="D:\AutoTestFrame\STAF\bin\STAFLog.dll" vendor="IBM">
+			<resource keyfile="false" name="bin" location="D:\AutoTestFrame\STAF\bin" type="directory" uninstall="false" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="STAFLog.dll" location="D:\AutoTestFrame\STAF\bin\STAFLog.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMon.dll" location="D:\AutoTestFrame\STAF\bin\STAFMon.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFPool.dll" location="D:\AutoTestFrame\STAF\bin\STAFPool.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFZip.dll" location="D:\AutoTestFrame\STAF\bin\STAFZip.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFZlib.dll" location="D:\AutoTestFrame\STAF\bin\STAFZlib.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="8c8c7c27-1ee9-11b2-82cb-f3a634900050" version="1.0.0.0" name="AG- Langs" location="D:\AutoTestFrame\STAF\bin\JSTAF.dll" vendor="IBM">
+			<resource keyfile="false" name="environment" location="[key=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment][variable=CLASSPATH][value=D:\AutoTestFrame\STAF\bin\JSTAF.jar]" type="environment" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bin" location="D:\AutoTestFrame\STAF\bin" type="directory" uninstall="false" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="JSTAF.dll" location="D:\AutoTestFrame\STAF\bin\JSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="JSTAF.jar" location="D:\AutoTestFrame\STAF\bin\JSTAF.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="JSTAF.zip" location="D:\AutoTestFrame\STAF\bin\JSTAF.zip" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="JSTAFSH.dll" location="D:\AutoTestFrame\STAF\bin\JSTAFSH.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pkgIndex.tcl" location="D:\AutoTestFrame\STAF\bin\pkgIndex.tcl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.pm" location="D:\AutoTestFrame\STAF\bin\PLSTAF.pm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAFService.pm" location="D:\AutoTestFrame\STAF\bin\PLSTAFService.pm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PySTAF.py" location="D:\AutoTestFrame\STAF\bin\PySTAF.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PySTAFv3.py" location="D:\AutoTestFrame\STAF\bin\PySTAFv3.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PySTAFLog.py" location="D:\AutoTestFrame\STAF\bin\PySTAFLog.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PySTAFMon.py" location="D:\AutoTestFrame\STAF\bin\PySTAFMon.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="RXSTAF.dll" location="D:\AutoTestFrame\STAF\bin\RXSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="RxThread.dll" location="D:\AutoTestFrame\STAF\bin\RxThread.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF.pl" location="D:\AutoTestFrame\STAF\bin\STAF.pl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF.tcl" location="D:\AutoTestFrame\STAF\bin\STAF.tcl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF2.pl" location="D:\AutoTestFrame\STAF\bin\STAF2.pl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFAnt.jar" location="D:\AutoTestFrame\STAF\bin\STAFAnt.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFLog.pm" location="D:\AutoTestFrame\STAF\bin\STAFLog.pm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFLog.tcl" location="D:\AutoTestFrame\STAF\bin\STAFLog.tcl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMon.pm" location="D:\AutoTestFrame\STAF\bin\STAFMon.pm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMon.tcl" location="D:\AutoTestFrame\STAF\bin\STAFMon.tcl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFUtil.tcl" location="D:\AutoTestFrame\STAF\bin\STAFUtil.tcl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFHTTPSLS.jar" location="D:\AutoTestFrame\STAF\bin\STAFHTTPSLS.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python22" location="D:\AutoTestFrame\STAF\bin\python22" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python22\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python23" location="D:\AutoTestFrame\STAF\bin\python23" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python23\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python24" location="D:\AutoTestFrame\STAF\bin\python24" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python24\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python25" location="D:\AutoTestFrame\STAF\bin\python25" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python25\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python26" location="D:\AutoTestFrame\STAF\bin\python26" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python26\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python27" location="D:\AutoTestFrame\STAF\bin\python27" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python27\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python30" location="D:\AutoTestFrame\STAF\bin\python30" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python30\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python31" location="D:\AutoTestFrame\STAF\bin\python31" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python31\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python32" location="D:\AutoTestFrame\STAF\bin\python32" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python32\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python33" location="D:\AutoTestFrame\STAF\bin\python33" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python33\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python34" location="D:\AutoTestFrame\STAF\bin\python34" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PYSTAF.pyd" location="D:\AutoTestFrame\STAF\bin\python34\PYSTAF.pyd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="tcl83" location="D:\AutoTestFrame\STAF\bin\tcl83" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="TCLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\tcl83\TCLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="TCLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\TCLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="tcl84" location="D:\AutoTestFrame\STAF\bin\tcl84" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="TCLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\tcl84\TCLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="tcl85" location="D:\AutoTestFrame\STAF\bin\tcl85" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="TCLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\tcl85\TCLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="tcl86" location="D:\AutoTestFrame\STAF\bin\tcl86" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="TCLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\tcl86\TCLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lib" location="D:\AutoTestFrame\STAF\lib" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="STAFCPar.rxl" location="D:\AutoTestFrame\STAF\lib\STAFCPar.rxl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFLog.rxl" location="D:\AutoTestFrame\STAF\lib\STAFLog.rxl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFMon.rxl" location="D:\AutoTestFrame\STAF\lib\STAFMon.rxl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFPool.rxl" location="D:\AutoTestFrame\STAF\lib\STAFPool.rxl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFUtil.rxl" location="D:\AutoTestFrame\STAF\lib\STAFUtil.rxl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\perl56\PLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\perl58\PLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\PLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\perl510\PLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\perl512\PLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PLSTAF.dll" location="D:\AutoTestFrame\STAF\bin\perl514\PLSTAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="78fbc330-1ee9-11b2-bfd1-f3a634900050" version="1.0.0.0" name="InstallAnywhere VM Component" location="D:\AutoTestFrame\STAF\jre" vendor="IBM">
+			<resource keyfile="true" name="jre" location="D:\AutoTestFrame\STAF\jre" type="post_processed_dir" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+		</component>
+		<component id="7e236606-1ee9-11b2-8752-f3a634900050" version="1.0.0.0" name="AG- STAF" location="D:\AutoTestFrame\STAF\bin\FmtLog.exe" vendor="IBM">
+			<resource keyfile="false" name="environment" location="[key=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment][variable=PATH][value=D:\AutoTestFrame\STAF\bin]" type="environment" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="environment" location="[key=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment][variable=STAFCONVDIR][value=D:\AutoTestFrame\STAF\codepage]" type="environment" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="" location="STAFCreateSTAFEnv " type="customcode" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="" location="STAFCreateStartSTAFProc " type="customcode" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="install.properties" location="D:\AutoTestFrame\STAF\install.properties" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bin" location="D:\AutoTestFrame\STAF\bin" type="directory" uninstall="false" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="FmtLog.exe" location="D:\AutoTestFrame\STAF\bin\FmtLog.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="IPv4" location="D:\AutoTestFrame\STAF\bin\IPv4" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="STAF.dll" location="D:\AutoTestFrame\STAF\bin\IPv4\STAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF.dll" location="D:\AutoTestFrame\STAF\bin\STAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTCP.dll" location="D:\AutoTestFrame\STAF\bin\IPv4\STAFTCP.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTCP.dll" location="D:\AutoTestFrame\STAF\bin\STAFTCP.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="IPv6" location="D:\AutoTestFrame\STAF\bin\IPv6" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="STAF.dll" location="D:\AutoTestFrame\STAF\bin\IPv6\STAF.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFTCP.dll" location="D:\AutoTestFrame\STAF\bin\IPv6\STAFTCP.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF.cfg" location="D:\AutoTestFrame\STAF\bin\STAF.cfg" type="file" uninstall="false" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF.exe" location="D:\AutoTestFrame\STAF\bin\STAF.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDSLS.dll" location="D:\AutoTestFrame\STAF\bin\STAFDSLS.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFEXECPROXY.dll" location="D:\AutoTestFrame\STAF\bin\STAFEXECPROXY.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFExecProxy.exe" location="D:\AutoTestFrame\STAF\bin\STAFExecProxy.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFLIPC.dll" location="D:\AutoTestFrame\STAF\bin\STAFLIPC.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFLoop.exe" location="D:\AutoTestFrame\STAF\bin\STAFLoop.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProc.exe" location="D:\AutoTestFrame\STAF\bin\STAFProc.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProc.exe.manifest" location="D:\AutoTestFrame\STAF\bin\STAFProc.exe.manifest" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProc.ico" location="D:\AutoTestFrame\STAF\bin\STAFProc.ico" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFReg.exe" location="D:\AutoTestFrame\STAF\bin\STAFReg.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libeay32.dll" location="D:\AutoTestFrame\STAF\bin\libeay32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ssleay32.dll" location="D:\AutoTestFrame\STAF\bin\ssleay32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="msvcr120.dll" location="D:\AutoTestFrame\STAF\bin\msvcr120.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="CAList.crt" location="D:\AutoTestFrame\STAF\bin\CAList.crt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDefault.crt" location="D:\AutoTestFrame\STAF\bin\STAFDefault.crt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDefault.key" location="D:\AutoTestFrame\STAF\bin\STAFDefault.key" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="codepage" location="D:\AutoTestFrame\STAF\codepage" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="alias.txt" location="D:\AutoTestFrame\STAF\codepage\alias.txt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lib" location="D:\AutoTestFrame\STAF\lib" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="service.def" location="D:\AutoTestFrame\STAF\lib\service.def" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF.lib" location="D:\AutoTestFrame\STAF\lib\STAF.lib" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="LICENSE.htm" location="D:\AutoTestFrame\STAF\LICENSE.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="NOTICES.htm" location="D:\AutoTestFrame\STAF\NOTICES.htm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF 3.4.26" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Uninstall STAF 3.4.26.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Uninstall STAF 3.4.26.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF.ico" location="D:\AutoTestFrame\STAF\bin\STAF.ico" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Shutdown STAF 3.4.26.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Shutdown STAF 3.4.26.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="startSTAFProc.ico" location="D:\AutoTestFrame\STAF\startSTAFProc.ico" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Start STAF 3.4.26.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\STAF 3.4.26\Start STAF 3.4.26.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="startSTAFProc.ico" location="D:\AutoTestFrame\STAF\startSTAFProc.ico" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Start STAF 3.4.26.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Start STAF 3.4.26.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="STAF.ico" location="D:\AutoTestFrame\STAF\bin\STAF.ico" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Shutdown STAF 3.4.26.lnk" location="C:\Users\dongqianqian\AppData\Roaming\Microsoft\Windows\Start Menu\Shutdown STAF 3.4.26.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="startSTAFProc.ico" location="D:\AutoTestFrame\STAF\startSTAFProc.ico" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProc.lnk" location="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\STAFProc.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+		</component>
+		<component id="8d59120e-1ee9-11b2-8091-f3a634900050" version="1.0.0.0" name="AG- Codepage" location="D:\AutoTestFrame\STAF\codepage\ibm-1004.bin" vendor="IBM">
+			<resource keyfile="false" name="codepage" location="D:\AutoTestFrame\STAF\codepage" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="ibm-1004.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1004.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1006.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1006.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1008.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1008.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1038.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1038.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1041.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1041.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1043.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1043.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1047.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1047.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1051.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1051.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1088.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1088.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1089.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1089.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1098.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1098.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1112.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1112.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1114.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1114.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1115.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1115.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1116.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1116.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1117.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1117.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1118.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1118.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1119.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1119.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1123.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1123.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1141.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1141.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1142.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1142.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1143.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1143.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1144.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1144.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1145.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1145.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1146.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1146.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1147.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1147.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1148.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1148.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1149.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1149.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1153.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1153.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1154.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1154.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1155.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1155.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1156.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1156.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1157.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1157.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1158.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1158.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1159.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1159.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1160.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1160.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1164.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1164.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1250.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1250.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1251.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1251.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1253.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1253.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1254.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1254.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1255.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1255.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1256.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1256.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1257.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1257.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1258.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1258.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-12712.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-12712.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1275.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1275.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1276.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1276.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1277.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1277.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1280.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1280.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1281.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1281.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1282.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1282.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1283.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1283.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1361.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1361.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1362.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1362.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1363.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1363.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1364.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1364.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1370.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1370.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1371.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1371.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1383.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1383.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1386.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1386.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1390.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1390.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-1399.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1399.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-16684.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-16684.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-16804.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-16804.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-17248.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-17248.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-21427.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-21427.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-273.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-273.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-277.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-277.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-278.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-278.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-280.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-280.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-284.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-284.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-285.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-285.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-290.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-290.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-297.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-297.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-37.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-37.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-420.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-420.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-424.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-424.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-4899.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-4899.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-4909.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-4909.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-4930.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-4930.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-4971.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-4971.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-500.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-500.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5104.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5104.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5123.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5123.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5210.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5210.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5346.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5346.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5347.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5347.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5349.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5349.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5350.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5350.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5351.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5351.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5352.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5352.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5353.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5353.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-5354.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-5354.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-803.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-803.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-808.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-808.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-813.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-813.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-833.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-833.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-834.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-834.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-835.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-835.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-837.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-837.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-848.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-848.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-8482.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-8482.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-849.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-849.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-850.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-850.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-852.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-852.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-855.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-855.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-856.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-856.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-857.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-857.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-858.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-858.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-859.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-859.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-860.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-860.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-861.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-861.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-862.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-862.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-863.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-863.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-864.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-864.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-865.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-865.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-866.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-866.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-867.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-867.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-868.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-868.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-869.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-869.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-871.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-871.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-872.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-872.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-874.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-874.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-878.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-878.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-891.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-891.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-897.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-897.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-901.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-901.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-902.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-902.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-9027.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-9027.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-903.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-903.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-904.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-904.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-9044.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-9044.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-9049.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-9049.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-9061.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-9061.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-907.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-907.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-909.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-909.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-910.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-910.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-912.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-912.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-913.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-913.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-914.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-914.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-915.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-915.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-916.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-916.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-920.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-920.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-921.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-921.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-922.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-922.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-923.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-923.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-9238.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-9238.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-924.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-924.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-930.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-930.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-933.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-933.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-935.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-935.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-937.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-937.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-939.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-939.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-941.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-941.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-942.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-942.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-943.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-943.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-944.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-944.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-946.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-946.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-947.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-947.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-948.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-948.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-949.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-949.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-950.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-950.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-953.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-953.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-955.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-955.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-961.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-961.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-964.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-964.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-970.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-970.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="8d590caf-1ee9-11b2-808f-f3a634900050" version="1.0.0.0" name="AG- STAF, Codepage" location="D:\AutoTestFrame\STAF\codepage\ibm-1252.bin" vendor="IBM">
+			<resource keyfile="false" name="codepage" location="D:\AutoTestFrame\STAF\codepage" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="ibm-1252.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-1252.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ibm-437.bin" location="D:\AutoTestFrame\STAF\codepage\ibm-437.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="6962f896-1f08-11b2-aa4f-b96b75a1542f" version="1.0.0.0" name="InstallAnywhere Uninstall Component " location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe" vendor="IBM">
+			<resource keyfile="false" name="STAFInstall.log" location="D:\AutoTestFrame\STAF\STAFInstall.log" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAF" location="D:\AutoTestFrame\STAF" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Uninstall_STAF" location="D:\AutoTestFrame\STAF\Uninstall_STAF" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|983103||STRING|$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|983103|" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|DisplayName|STRING|STAF$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|DisplayName" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uninstaller.jar" location="D:\AutoTestFrame\STAF\Uninstall_STAF\uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="jre" location="D:\AutoTestFrame\STAF\jre" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="Uninstall_STAF.exe" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Uninstall_STAF.lax" location="D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource" location="D:\AutoTestFrame\STAF\Uninstall_STAF\resource" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="iawin32.dll" location="D:\AutoTestFrame\STAF\Uninstall_STAF\resource\iawin32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win64_32_x64.exe" location="D:\AutoTestFrame\STAF\Uninstall_STAF\resource\win64_32_x64.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="remove.exe" location="D:\AutoTestFrame\STAF\Uninstall_STAF\resource\remove.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="invoker.exe" location="D:\AutoTestFrame\STAF\Uninstall_STAF\resource\invoker.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|DisplayName|STRING|STAF$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|DisplayName" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|UninstallString|STRING|&quot;D:\AutoTestFrame\STAF\Uninstall_STAF\Uninstall_STAF.exe&quot;$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|UninstallString" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|Publisher|STRING|IBM$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|Publisher" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|URLUpdateInfo|STRING|http://staf.sourceforge.net$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|URLUpdateInfo" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|ProductID|STRING|78fbc320-1ee9-11b2-bfbf-f3a634900050$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|ProductID" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|InstallLocation|STRING|D:\AutoTestFrame\STAF$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|InstallLocation" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|InstallDate|STRING|Wed Dec 20 13:30:39 CST 2017$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|InstallDate" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|HelpLink|STRING|http://staf.sourceforge.net$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|HelpLink" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|DisplayVersion|STRING|3.4.26.0$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\STAF|131103|DisplayVersion" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="perl56" location="D:\AutoTestFrame\STAF\bin\perl56" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl56" location="D:\AutoTestFrame\STAF\bin\perl56" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl58" location="D:\AutoTestFrame\STAF\bin\perl58" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl58" location="D:\AutoTestFrame\STAF\bin\perl58" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl510" location="D:\AutoTestFrame\STAF\bin\perl510" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl510" location="D:\AutoTestFrame\STAF\bin\perl510" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl512" location="D:\AutoTestFrame\STAF\bin\perl512" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl512" location="D:\AutoTestFrame\STAF\bin\perl512" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl514" location="D:\AutoTestFrame\STAF\bin\perl514" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="perl514" location="D:\AutoTestFrame\STAF\bin\perl514" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ZGWin32LaunchHelper.exe" location="D:\AutoTestFrame\STAF\Uninstall_STAF\resource\ZGWin32LaunchHelper.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="D:\AutoTestFrame\STAF\Uninstall_STAF\.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="8d5f3b64-1ee9-11b2-81c8-f3a634900050" version="1.0.0.0" name="AG- Samples" location="D:\AutoTestFrame\STAF\samples\c\LogIt.c" vendor="IBM">
+			<resource keyfile="false" name="environment" location="[key=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment][variable=CLASSPATH][value=D:\AutoTestFrame\STAF\samples\demo\STAFDemo.jar]" type="environment" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="samples" location="D:\AutoTestFrame\STAF\samples" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="c" location="D:\AutoTestFrame\STAF\samples\c" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="LogIt.c" location="D:\AutoTestFrame\STAF\samples\c\LogIt.c" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cpp" location="D:\AutoTestFrame\STAF\samples\cpp" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="LogIt.cpp" location="D:\AutoTestFrame\STAF\samples\cpp\LogIt.cpp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="demo" location="D:\AutoTestFrame\STAF\samples\demo" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="STAFDemo.jar" location="D:\AutoTestFrame\STAF\samples\demo\STAFDemo.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFDemoController.java" location="D:\AutoTestFrame\STAF\samples\demo\STAFDemoController.java" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="STAFProcess.java" location="D:\AutoTestFrame\STAF\samples\demo\STAFProcess.java" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="genwl" location="D:\AutoTestFrame\STAF\samples\genwl" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Sample.gwl" location="D:\AutoTestFrame\STAF\samples\genwl\Sample.gwl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="java" location="D:\AutoTestFrame\STAF\samples\java" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="JPing.java" location="D:\AutoTestFrame\STAF\samples\java\JPing.java" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="misc" location="D:\AutoTestFrame\STAF\samples\misc" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="OldVars.cfg" location="D:\AutoTestFrame\STAF\samples\misc\OldVars.cfg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="rexx" location="D:\AutoTestFrame\STAF\samples\rexx" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PingTest.cmd" location="D:\AutoTestFrame\STAF\samples\rexx\PingTest.cmd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sample1.cmd" location="D:\AutoTestFrame\STAF\samples\rexx\Sample1.cmd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sample2.cmd" location="D:\AutoTestFrame\STAF\samples\rexx\Sample2.cmd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sample3.cmd" location="D:\AutoTestFrame\STAF\samples\rexx\Sample3.cmd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sample4.cmd" location="D:\AutoTestFrame\STAF\samples\rexx\Sample4.cmd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+	</components>
+</registry>

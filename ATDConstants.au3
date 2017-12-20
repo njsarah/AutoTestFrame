@@ -18,4 +18,5 @@ Const $ATD_ApplicationName="C:\Program Files (x86)\ATreat Designer 3.0\bin\ATrea
 Const $ATD_Title = "ATreat Designer"
 Const $ATD_SelectFile = "请选择文件"
 Const $ATD_Tip = "提示"
+Const
 

@@ -10,12 +10,15 @@
 
 ; Script Start - Add your code below here
 #RequireAdmin
-#include "ATDConstants.au3"
+;#include "..\ATDConstants.au3"
 Global $h_File
+Global $i_TestPassCounter=0
+Global $i_TestFailureCounter=0
 testEnv()
 ;记录测试环境
 Func testEnv()
-;打开日志文件
+	_FileCreate($s_LogFileName)
+	;打开日志文件
 	$h_File = FileOpen($s_LogFileName,$FO_APPEND)
 	;记录系统版本
 	FileWriteLine($h_File, "System_Version = "& @OSVersion)
@@ -46,12 +49,12 @@ EndFunc
 Func logTestResult($s_TestCase,$i_Val)
 	If $i_Val = 1 Then
 		logInfo("Test Case [" & $s_TestCase &"] Execution Result: " & _
-				$s_TestResult & @CRLF & @CRLF)
+				$ATD_TestResult & @CRLF & @CRLF)
 		$i_TestPassCounter = $i_TestPassCounter + 1
 	Else
-		$s_TestResult = "Failed"
+		$ATD_TestResult = "Failed"
 		logError("Test Case [" & $s_TestCase &"] Execution Result: " & _
-				$s_TestResult & @CRLF & @CRLF)
+				$ATD_TestResult & @CRLF & @CRLF)
 		$i_TestFailureCounter = $i_TestFailureCounter + 1
 	EndIf
 EndFunc

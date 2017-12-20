@@ -11,6 +11,7 @@
 ; Script Start - Add your code below here
 #RequireAdmin
 #include "..\ATDConstants.au3"
+#include "..\ATDMessageResource.au3"
 Global $handle1;ATD的handle
 Opt("MouseCoordMode", 0)
 Func runExe()

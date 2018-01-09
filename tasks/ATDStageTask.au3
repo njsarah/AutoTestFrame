@@ -15,6 +15,24 @@
 Func openStage()
 	Send("{F10}")
 EndFunc
+Func adjustJaw()
+	Sleep($i_MaxTimeout)
+	Send("{F1}")
+	Sleep($i_MaxTimeout)
+	Send("{F2}")
+	Sleep($i_MaxTimeout)
+	Send("{F3}")
+	Sleep($i_MaxTimeout)
+	Send("{F4}")
+	Sleep($i_MaxTimeout)
+	Send("{F5}")
+	Sleep($i_MaxTimeout)
+	Send("{F6}")
+	Sleep($i_MaxTimeout)
+	Send("{Q}")
+	Sleep($i_MaxTimeout)
+	Send("{E}")
+EndFunc
 Func openArch()
 	Send("{6}")
 	Sleep($i_MaxTimeout)
@@ -50,4 +68,6 @@ Func setIPR()
 	Send("{K}")
 	Sleep($i_MaxTimeout)
 EndFunc
+
+
 

@@ -19,5 +19,7 @@ Const $ATD_SelectFile = "请选择文件"
 Const $ATD_Tip = "提示"
 Const $ATD_SaveAsDialog = "请输入保存文件名"
 $ATD_TestResult = "Pass"
+Const $ATD_UpperJaw = "上牙颌"
+Const $ATD_LowerJaw = "下牙颌"
 
 

@@ -51,6 +51,7 @@ Func getTeethInfor($jawHandler,$tN)
 	Local $uh = getUhandler()
 	Local $lh = getLhandler()
 	;判断上牙颌和下牙颌是否存在
+	If $uh<>0 Then
 
 	Local $i=0
 	Local $j=0

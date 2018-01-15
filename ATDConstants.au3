@@ -18,8 +18,9 @@ Const $ATD_Title = "ATreat Designer"
 Const $ATD_SelectFile = "请选择文件"
 Const $ATD_Tip = "提示"
 Const $ATD_SaveAsDialog = "请输入保存文件名"
+Const $ATD_Rename = "确认另存为"
 $ATD_TestResult = "Pass"
 Const $ATD_UpperJaw = "上牙颌"
 Const $ATD_LowerJaw = "下牙颌"
-
+Const $ATD_FilePath = "D:\AutoTestFrame\testdata\FilePath.xlsx"
 

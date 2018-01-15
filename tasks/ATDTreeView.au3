@@ -12,6 +12,7 @@
 #RequireAdmin
 #include "..\ATDConstants.au3"
 #include "..\ATDMessageResource.au3"
+#include "..\Common.au3"
 Global $treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
 Global $LT[16]=[31,32,33,34,35,36,37,38,41,42,43,44,45,46,47,48]
 Global $UT[16]=[11,12,13,14,15,16,17,18,21,22,23,24,25,26,27,28]
@@ -43,6 +44,37 @@ Func getLhandler()
 	EndIf
 	return $Lhandler
 EndFunc
+
+;导出模型
+Func exModel($jaw_Handler,$fileType)
+	If($jaw_Handler<>0) Then
+		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
+		Local $pos = MouseGetPos()
+		MouseClick("",$pos[0]+9,$pos[1]+40)
+		Local $exhandle=WinGetHandle("Export")
+		WinActivate($exhandle)
+		ControlCommand($exhandle,"","ComboBox5","SelectString",$fileType)
+		ControlClick($exhandle,"","Button1")
+		ControlClick($exhandle,"","Button3")
+		saveFile()
+	Else
+		logError("The parameter is wrong!")
+	EndIf
+EndFunc
+
+;删除模型
+Func delModel($jaw_Handler)
+	If($jaw_Handler<>0) Then
+		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
+		Local $pos = MouseGetPos()
+		MouseClick("",$pos[0]+9,$pos[1]+90)
+		Return tip()
+	Else
+		logError("The parameter is wrong!")
+		Return 0
+	EndIf
+EndFunc
+
 Func getTeethInfor($jawHandler,$tN)
 	;存在的牙齿列表
 	Local $arrays[1]=[0]

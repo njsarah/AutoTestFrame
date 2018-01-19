@@ -33,11 +33,11 @@ Func testEnv()
 EndFunc
 ;将日志信息写入文件
 Func logInfo($atd_Content)
-	logToFile("INFO"&$atd_Content)
+	logToFile("INFO:"&$atd_Content)
 EndFunc
 ;将错误日志写入文件
 Func logError($atd_Content)
-	logToFile("ERROR"&$atd_Content)
+	logToFile("ERROR:"&$atd_Content)
 EndFunc
 ;将日志写入文件
 Func logToFile($atd_Content)
@@ -48,12 +48,12 @@ EndFunc
 ; 将测试结果写入文件
 Func logTestResult($s_TestCase,$i_Val)
 	If $i_Val = 1 Then
-		logInfo("Test Case [" & $s_TestCase &"] Execution Result: " & _
+		logInfo("Test Case: [" & $s_TestCase &"] Execution Result: " & _
 				$ATD_TestResult & @CRLF & @CRLF)
 		$i_TestPassCounter = $i_TestPassCounter + 1
 	Else
 		$ATD_TestResult = "Failed"
-		logError("Test Case [" & $s_TestCase &"] Execution Result: " & _
+		logError("Test Case: [" & $s_TestCase &"] Execution Result: " & _
 				$ATD_TestResult & @CRLF & @CRLF)
 		$i_TestFailureCounter = $i_TestFailureCounter + 1
 	EndIf

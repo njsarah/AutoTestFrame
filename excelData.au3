@@ -10,10 +10,12 @@
 
 ; Script Start - Add your code below here
 #include <Excel.au3>
+Local $oExcel
 Local $oWorkbook
+
 ; 打开 Excel 文档
 Func openExcel($s_FilePath)
-	Local $oExcel = _Excel_Open()
+	$oExcel = _Excel_Open()
 	If @error Then Exit logError("Failed to connect existing Excel instance @error = "&@error&",@extended = "&@extended)
 	$oWorkbook = _Excel_BookOpen($oExcel,$s_FilePath)
 	If @error Then Exit logError("Failed to open Excel @error = "&@error&",@extended = "&@extended)
@@ -25,6 +27,6 @@ Func readExcelData($location)
  Return $s_CellValue
 EndFunc
 ; 关闭 Excel 文档
-Func closeExcel($oWorkbook)
- _Excel_Close($oWorkbook)
+Func closeExcel()
+ _Excel_Close($oExcel,Default,True)
 EndFunc

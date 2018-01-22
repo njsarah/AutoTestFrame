@@ -41,6 +41,7 @@ Func getLhandler()
 		logInfo("The Model has LowerJaw;")
 	Else
 		logInfo("The Model doesn't have LowerJaw;")
+		Return 0
 	EndIf
 	return $Lhandler
 EndFunc
@@ -69,6 +70,31 @@ Func delModel($jaw_Handler)
 		Local $pos = MouseGetPos()
 		MouseClick("",$pos[0]+9,$pos[1]+90)
 		Return tip()
+	Else
+		logError("The parameter is wrong!")
+		Return 0
+	EndIf
+EndFunc
+;替换模型
+Func replaceModel($jaw_Handler)
+	If($jaw_Handler<>0) Then
+		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
+		Local $pos = MouseGetPos()
+		MouseClick("",$pos[0]+9,$pos[1]+78)
+		If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
+			openFile()
+		ElseIf WinWait($ATD_Tip,"",$i_MinTimeout)<>0 Then
+			tip()
+			If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
+				openFile()
+			Else
+				logError("Failed to replace Model;")
+				Return 0
+			EndIf
+		Else
+			logError("Failed to replace Model;")
+			Return 0
+		EndIf
 	Else
 		logError("The parameter is wrong!")
 		Return 0

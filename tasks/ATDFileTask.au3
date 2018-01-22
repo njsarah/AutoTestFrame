@@ -40,7 +40,6 @@ Func ATDOpenFile()
 	;打开文件
 	openFile($filepath)
 	ATDExportFile()
-
 	VerifySaveFile()
 EndFunc
 

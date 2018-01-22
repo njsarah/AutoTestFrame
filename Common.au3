@@ -23,6 +23,7 @@ Func openFile($filepath)
 		;ControlCommand($open_handle,"","ComboBox2","SelectString","ODS files")
 		ControlSetText($open_handle,"","Edit1",$filepath)
 		ControlClick($open_handle,"","Button1")
+		Return $open_handle
 	Else                                             ;打开对话框失败
 		LogError("Failed to Open the FileDialog")
 		Return 0

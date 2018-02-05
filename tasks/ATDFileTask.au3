@@ -11,13 +11,12 @@
 ; Script Start - Add your code below here
 #RequireAdmin
 #include "..\ATDConstants.au3"
-#include "..\ATDMessageResource.au3"
 #include "..\Common.au3"
 #include "..\excelData.au3"
+
 Global $handle1;ATD的handle
 Global $filepath
 Opt("MouseCoordMode", 0)
-ATDOpenFile()
 ;打开文件
 Func ATDOpenFile()
 	;启动ATD应用程序
@@ -38,9 +37,7 @@ Func ATDOpenFile()
 	Send("^O")
 	Sleep($i_MaxTimeout)
 	;打开文件
-	openFile($filepath)
-	ATDExportFile()
-	VerifySaveFile()
+	Return openFile($filepath)
 EndFunc
 
 ;保存文件
@@ -52,7 +49,7 @@ EndFunc
 Func ATDSaveAsFile()
 	MouseClick($MOUSE_CLICK_LEFT,206,90,2)
 	logInfo("Save as file")
-	saveFile()
+	Return saveFile()
 EndFunc
 
 ;导出文件
@@ -61,9 +58,8 @@ Func ATDExportFile()
 	MouseClick($MOUSE_CLICK_LEFT,87,85,2)
 	;导出文件
 	logInfo("Export file")
-	saveFile()
+	Return saveFile()
 EndFunc
-
 ;关闭文件
 Func ATDCloseFile()
 	MouseClick($MOUSE_CLICK_LEFT,263,90,2)
@@ -75,7 +71,7 @@ Func VerifyOpenFile()
 		tip()
 		Return 0
 	ElseIf WinWait($ATD_Title,"",$i_MinTimeout)<>0 Then  ;成功打开文件
-		logInfo("Sucessfully open file"&$filepath)
+		logInfo("Sucessfully open file:"&$filepath)
 		Return 1
 	Else
 		logError("Failed to open file"&$filepath)     ;应用程序有问题造成打开失败
@@ -83,13 +79,12 @@ Func VerifyOpenFile()
 	EndIf
 EndFunc
 Func VerifySaveFile()
-	;MsgBox(0,"Verify","save Result")
 	If WinWait($ATD_Rename,"",$i_MinTimeout)<>0 Then ;同一个目录下存在同名文件,覆盖原文件
-		logInfo("The director has a same file:overrite the file;")
+		logInfo("The directory has a same file:overrite the file;")
 		ControlClick($ATD_Rename,"","Button1")
 		Return 1
 	ElseIf WinWait($ATD_Rename,"",$i_MinTimeout)<>0 Then ;同一个目录下存在同名文件,不覆盖原文件
-		logInfo("The director has a same file:don't overrite the file;")
+		logInfo("The directory has a same file:don't overrite the file;")
 		ControlClick($ATD_Rename,"","Button2")
 		Return 0
 	ElseIf WinWait($ATD_Tip,"",$i_MinTimeout)<>0 Then ;弹出提示失败信息
@@ -97,7 +92,6 @@ Func VerifySaveFile()
 		ControlClick($ATD_Tip,"","Button1")
 		Return 0
 	ElseIf WinWait($ATD_Title,"",$i_MinTimeout)<>0 Then ;不存在同名文件下，关闭对话框
-		MsgBox(0,"Verify","save Result 1")
 		logInfo("Sucessfully Save File;")
 		Return 1
 	Else                                             ;其它情况下默认失败

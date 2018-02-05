@@ -10,18 +10,41 @@
 
 ; Script Start - Add your code below here
 #RequireAdmin
-#include "..\ATDConstants.au3"
-#include "..\ATDMessageResource.au3"
-#include "..\Common.au3"
-Global $treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
+#include <GuiTreeView.au3>
+;#include "..\utilities\Logger.au3"
+;#include "..\ATDConstants.au3"
+;#include "..\Common.au3"
+;#include "..\tasks\ATDFileTask.au3"
+Global $treeH
 Global $LT[16]=[31,32,33,34,35,36,37,38,41,42,43,44,45,46,47,48]
 Global $UT[16]=[11,12,13,14,15,16,17,18,21,22,23,24,25,26,27,28]
+;展开模型树
+Func getExpandedTree()
+	$treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
+
+	MsgBox(0,"Result",_GUICtrlTreeView_FindItem($treeH,StringSplit(StringSplit($filepath,".")[1],"\")[7]))
+	If $treeH <> 0 Then
+		;展开模型树
+		If _GUICtrlTreeView_GetExpanded($treeH,StringSplit(StringSplit($filepath,".")[1],"\")[0])=False Then
+
+			MsgBox(0,"模型树","7777")
+			ControlClick($ATD_Title,"","Button1")
+			_GUICtrlTreeView_Expand($treeH)
+
+		EndIf
+	Else
+		;打开模型树
+		ControlClick($ATD_Title,"","Button1")
+		;展开模型树
+		_GUICtrlTreeView_Expand($treeH)
+	EndIf
+EndFunc
 Func getUhandler()
-	;展开模型树
-	_GUICtrlTreeView_Expand($treeH)
+	getExpandedTree()
 	Sleep($i_MaxTimeout)
 	;获得上颌的Handler
 	Local $Uhandler=_GUICtrlTreeView_FindItem($treeH,$ATD_UpperJaw)
+	;MsgBox(0,"Handler",$Uhandler)
 	;写入日志文件
 	If $Uhandler<>0 Then
 		logInfo("The Model has UpperJaw;")
@@ -31,11 +54,10 @@ Func getUhandler()
 	return $Uhandler
 EndFunc
 Func getLhandler()
-	;展开模型树
-	_GUICtrlTreeView_Expand($treeH)
+	getExpandedTree()
 	Sleep($i_MaxTimeout)
 	;获得下颌的Handler
-	$Uhandler=_GUICtrlTreeView_FindItem($treeH,$ATD_LowerJaw)
+	Local $Lhandler=_GUICtrlTreeView_FindItem($treeH,$ATD_LowerJaw)
 	;写入日志文件
 	If $Lhandler<>0 Then
 		logInfo("The Model has LowerJaw;")
@@ -48,18 +70,21 @@ EndFunc
 
 ;导出模型
 Func exModel($jaw_Handler,$fileType)
+	;MsgBox(0,"Uhandler",$jaw_Handler)
 	If($jaw_Handler<>0) Then
-		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
+		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,2)
 		Local $pos = MouseGetPos()
+		;MsgBox(0,"Position",$pos[0])
 		MouseClick("",$pos[0]+9,$pos[1]+40)
 		Local $exhandle=WinGetHandle("Export")
 		WinActivate($exhandle)
 		ControlCommand($exhandle,"","ComboBox5","SelectString",$fileType)
 		ControlClick($exhandle,"","Button1")
 		ControlClick($exhandle,"","Button3")
-		saveFile()
+		Return saveFile()
 	Else
 		logError("The parameter is wrong!")
+		Return 0
 	EndIf
 EndFunc
 
@@ -76,17 +101,18 @@ Func delModel($jaw_Handler)
 	EndIf
 EndFunc
 ;替换模型
+#cs
 Func replaceModel($jaw_Handler)
 	If($jaw_Handler<>0) Then
 		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
 		Local $pos = MouseGetPos()
 		MouseClick("",$pos[0]+9,$pos[1]+78)
 		If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
-			openFile()
+			Return openFile()
 		ElseIf WinWait($ATD_Tip,"",$i_MinTimeout)<>0 Then
 			tip()
 			If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
-				openFile()
+				Return openFile()
 			Else
 				logError("Failed to replace Model;")
 				Return 0
@@ -100,7 +126,8 @@ Func replaceModel($jaw_Handler)
 		Return 0
 	EndIf
 EndFunc
-
+#ce
+#cs
 Func getTeethInfor($jawHandler,$tN)
 	;存在的牙齿列表
 	Local $arrays[1]=[0]
@@ -127,3 +154,4 @@ Func getTeethInfor($jawHandler,$tN)
 	_ArrayDelete($refarr,12)
 	Return $refarr
 EndFunc
+#ce

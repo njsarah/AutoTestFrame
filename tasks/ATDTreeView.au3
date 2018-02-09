@@ -11,16 +11,13 @@
 ; Script Start - Add your code below here
 #RequireAdmin
 #include <GuiTreeView.au3>
-;#include "..\utilities\Logger.au3"
-;#include "..\ATDConstants.au3"
-;#include "..\Common.au3"
-;#include "..\tasks\ATDFileTask.au3"
 Global $treeH
 Global $LT[16]=[31,32,33,34,35,36,37,38,41,42,43,44,45,46,47,48]
 Global $UT[16]=[11,12,13,14,15,16,17,18,21,22,23,24,25,26,27,28]
+#cs
 ;展开模型树
 Func getExpandedTree()
-	$treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
+
 
 	MsgBox(0,"Result",_GUICtrlTreeView_FindItem($treeH,StringSplit(StringSplit($filepath,".")[1],"\")[7]))
 	If $treeH <> 0 Then
@@ -39,8 +36,9 @@ Func getExpandedTree()
 		_GUICtrlTreeView_Expand($treeH)
 	EndIf
 EndFunc
+#ce
 Func getUhandler()
-	getExpandedTree()
+	$treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
 	Sleep($i_MaxTimeout)
 	;获得上颌的Handler
 	Local $Uhandler=_GUICtrlTreeView_FindItem($treeH,$ATD_UpperJaw)
@@ -54,7 +52,7 @@ Func getUhandler()
 	return $Uhandler
 EndFunc
 Func getLhandler()
-	getExpandedTree()
+	$treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
 	Sleep($i_MaxTimeout)
 	;获得下颌的Handler
 	Local $Lhandler=_GUICtrlTreeView_FindItem($treeH,$ATD_LowerJaw)
@@ -70,7 +68,7 @@ EndFunc
 
 ;导出模型
 Func exModel($jaw_Handler,$fileType)
-	;MsgBox(0,"Uhandler",$jaw_Handler)
+	_GUICtrlTreeView_Expand($treeH,'',True)
 	If($jaw_Handler<>0) Then
 		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,2)
 		Local $pos = MouseGetPos()

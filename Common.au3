@@ -22,6 +22,14 @@ Func openFile($filepath)
 		logInfo("Sucessfully Open the FileDialog")
 		ControlSetText($open_handle,"","Edit1",$filepath)
 		ControlClick($open_handle,"","Button1")
+		Sleep($i_MaxTimeout)
+		If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
+			logInfo("The filepath cannot working:"&$filepath)
+			ControlClick($ATD_SelectFile,"","Button1")
+			Sleep($i_MaxTimeout)
+			WinClose($ATD_SelectFile)
+			Return 0
+		EndIf
 		Return $open_handle
 	Else                                             ;打开对话框失败
 		LogError("Failed to Open the FileDialog")
@@ -32,12 +40,13 @@ EndFunc
 Func saveFile()
 	Local $save_handle = WinWait($ATD_SaveAsDialog,"",$i_MaxTimeout)
 	If $save_handle <>0 Then
+		logInfo("Sucessfully Open the SaveFileDialog")
 		Local $tmp = ControlGetText($save_handle,"","Edit1")
 		Sleep($i_MaxTimeout)
 		ControlSetText($save_handle,$tmp,"Edit1",StringSplit($tmp,".")[1]&"_Export")
 		ControlClick($save_handle,"","Button1")
 	Else
-		LogError("Failed to Open the FileDialog")
+		LogError("Failed to Open the SaveFileDialog")
 	EndIf
 	Return $save_handle
 EndFunc

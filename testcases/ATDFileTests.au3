@@ -18,6 +18,7 @@ Func testOpenFile()
 	$i_Val = ATDOpenFile()
 	If $i_Val=0 Then
 		logTestResult($atd_TestCase,$i_Val)
+		Return 0
 	EndIf
 	Return VerifyOpenFile()
 EndFunc
@@ -37,19 +38,39 @@ Func testSaveAsFile()
 	EndIf
 	Return VerifySaveFile()
 EndFunc
-Func testExportModel($fileType)
-	$atd_TestCase = "testExportModel"
-	Local $Uhandler = getUhandler()
-	Local $Lhandler = getLhandler()
-	If $Uhandler<>0 Then
-		$i_Val = exModel($Uhandler,$fileType)
-	ElseIf $Lhandler<>0 Then
-		$i_Val = exModel($Lhandler,$fileType)
-	;Else
-		;$i_Val = exModel(,"STL")
-	EndIf
+Func testSaveFile()
+	$atd_TestCase = "testSaveFile"
+	$i_Val = ATDSaveFile()
 	If $i_Val = 0 Then
 		logTestResult($atd_TestCase,$i_Val)
 	EndIf
 	Return VerifySaveFile()
+EndFunc
+Func testCloseFile()
+	$atd_TestCase = "testCloseFile"
+	$i_Val = ATDCloseFile()
+	If $i_Val = 0 Then
+		logTestResult($atd_TestCase,$i_Val)
+	EndIf
+	Return VerifyCloseFile()
+EndFunc
+
+Func testExportModel($fileType)
+	$atd_TestCase = "testExportModel"
+	Local $Uhandler = getUhandler()
+	Local $Lhandler
+	If $Uhandler <>0 Then
+		$i_Val = exModel($Uhandler,$fileType)
+	Else
+		$Lhandler = getLhandler()
+		If $Lhandler <>0 Then
+			$i_Val = exModel($Lhandler,$fileType)
+		;Else
+			;$i_Val = exModel(,"STL")
+		EndIf
+	EndIf
+	If $i_Val = 0 Then
+		logTestResult($atd_TestCase,$i_Val)
+	EndIf
+	Return VerifyExportFile()
 EndFunc

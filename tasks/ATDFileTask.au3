@@ -24,6 +24,7 @@ Func ATDOpenFile()
 	$i_Val = WinWaitActive($ATD_Title,"",$i_MaxTimeout)
 	If $i_Val <> 0 Then
 		logInfo("Start the ATreat Designer sucessfully.")
+		ControlClick($ATD_Title,"","Button1")
 	Else
 		logError("Failee to start the ATreat Designer.")
 		Return $i_Val
@@ -37,7 +38,6 @@ Func ATDOpenFile()
 	Send("^O")
 	Sleep($i_MaxTimeout)
 	;打开文件
-	MsgBox(0,"openFile","ffff")
 	Return openFile($filepath)
 EndFunc
 
@@ -77,7 +77,6 @@ Func VerifyOpenFile()
 		Return 0
 	ElseIf WinWait($ATD_Title,"",$i_MinTimeout)<>0 Then  ;成功打开文件
 		logInfo("Sucessfully open file:"&$filepath)
-		ControlClick($ATD_Title,"","Button1")
 		Return 1
 	Else
 		logError("Failed to open file"&$filepath)     ;应用程序有问题造成打开失败
@@ -113,6 +112,7 @@ Func VerifyExportFile()
 		logInfo("Sucessfully Export file.")
 		ControlClick($ATD_Tip,"","Button1")
 		Return 1
+
 	Else
 		logError("Failed to export file.")
 		Return 0

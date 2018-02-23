@@ -45,6 +45,10 @@ Func saveFile()
 		Sleep($i_MaxTimeout)
 		ControlSetText($save_handle,$tmp,"Edit1",StringSplit($tmp,".")[1]&"_Export")
 		ControlClick($save_handle,"","Button1")
+		If WinWait($ATD_Rename,"",$i_MinTimeout)<>0 Then ;同一个目录下存在同名文件,覆盖原文件
+			logInfo("The directory has a same file:overrite the file;")
+			ControlClick($ATD_Rename,"","Button1")
+		EndIf
 	Else
 		LogError("Failed to Open the SaveFileDialog")
 	EndIf

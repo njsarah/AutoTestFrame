@@ -14,29 +14,20 @@
 Global $treeH
 Global $LT[16]=[31,32,33,34,35,36,37,38,41,42,43,44,45,46,47,48]
 Global $UT[16]=[11,12,13,14,15,16,17,18,21,22,23,24,25,26,27,28]
-#cs
-;展开模型树
-Func getExpandedTree()
-
-
-	MsgBox(0,"Result",_GUICtrlTreeView_FindItem($treeH,StringSplit(StringSplit($filepath,".")[1],"\")[7]))
-	If $treeH <> 0 Then
-		;展开模型树
-		If _GUICtrlTreeView_GetExpanded($treeH,StringSplit(StringSplit($filepath,".")[1],"\")[0])=False Then
-
-			MsgBox(0,"模型树","7777")
-			ControlClick($ATD_Title,"","Button1")
-			_GUICtrlTreeView_Expand($treeH)
-
-		EndIf
+Func getModelInfor($teethInfor)
+	$treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
+	Sleep($i_MaxTimeout)
+	;获得所要查找的Handler
+	Local $teethHandler=_GUICtrlTreeView_FindItem($treeH,$teethInfor)
+	If $teethHandler<>0 Then
+		_GUICtrlTreeView_ClickItem ($treeH, $teethHandler,"left",False,1)
+		logInfo("The Model has "&$teethInfor&".")
 	Else
-		;打开模型树
-		ControlClick($ATD_Title,"","Button1")
-		;展开模型树
-		_GUICtrlTreeView_Expand($treeH)
+		logInfo("The Model doesn't have "&$teethInfor&".")
 	EndIf
+	return $teethHandler
 EndFunc
-#ce
+#cs
 Func getUhandler()
 	$treeH=ControlGetHandle($ATD_Title,"","SysTreeView321")
 	Sleep($i_MaxTimeout)
@@ -65,14 +56,13 @@ Func getLhandler()
 	EndIf
 	return $Lhandler
 EndFunc
-
+#ce
 ;导出模型
 Func exModel($jaw_Handler,$fileType)
 	_GUICtrlTreeView_Expand($treeH,'',True)
 	If($jaw_Handler<>0) Then
 		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,2)
 		Local $pos = MouseGetPos()
-		;MsgBox(0,"Position",$pos[0])
 		MouseClick("",$pos[0]+9,$pos[1]+40)
 		Local $exhandle=WinGetHandle("Export")
 		WinActivate($exhandle)
@@ -85,7 +75,6 @@ Func exModel($jaw_Handler,$fileType)
 		Return 0
 	EndIf
 EndFunc
-
 ;删除模型
 Func delModel($jaw_Handler)
 	If($jaw_Handler<>0) Then
@@ -99,18 +88,17 @@ Func delModel($jaw_Handler)
 	EndIf
 EndFunc
 ;替换模型
-#cs
 Func replaceModel($jaw_Handler)
 	If($jaw_Handler<>0) Then
 		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
 		Local $pos = MouseGetPos()
-		MouseClick("",$pos[0]+9,$pos[1]+78)
+		MouseClick("",$pos[0]+9,$pos[1]+75)
 		If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
-			Return openFile()
+			Return openFile("C:\Users\dongqianqian\Desktop\Special\模型1\r1.ddm")
 		ElseIf WinWait($ATD_Tip,"",$i_MinTimeout)<>0 Then
 			tip()
 			If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
-				Return openFile()
+				Return openFile("C:\Users\dongqianqian\Desktop\Special\模型1\r1.ddm")
 			Else
 				logError("Failed to replace Model;")
 				Return 0
@@ -124,32 +112,3 @@ Func replaceModel($jaw_Handler)
 		Return 0
 	EndIf
 EndFunc
-#ce
-#cs
-Func getTeethInfor($jawHandler,$tN)
-	;存在的牙齿列表
-	Local $arrays[1]=[0]
-	Local $refarr=$arrays
-	;获得上牙颌和下牙颌的Handler
-	Local $uh = getUhandler()
-	Local $lh = getLhandler()
-	;判断上牙颌和下牙颌是否存在
-	If $uh<>0 Then
-
-	Local $i=0
-	Local $j=0
-	While $i<1
-		Local $val =_GUICtrlTreeView_FindItem($treeH,$tN[$i])
-		Sleep(1000)
-		If $val<>0 Then
-			_GUICtrlTreeView_ClickItem($treeH,$val,"left",True,1)
-			rightClick($val)
-			_ArrayInsert($refarr,$j,$tN[$i])
-			$j=$j+1
-		EndIf
-		$i=$i+1
-	WEnd
-	_ArrayDelete($refarr,12)
-	Return $refarr
-EndFunc
-#ce

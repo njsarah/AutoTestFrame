@@ -29,11 +29,15 @@ If $i_Val <> 0 Then
 	;调用函数执行关闭文件
 	$i_Val = testCloseFile()
 	logTestResult($atd_TestCase,$i_Val)
+
+	;$i_Val = testExportModel(,"DDM")
+	;logTestResult($atd_TestCase,$i_Val)
+	;$i_Val = testDelModel()
+	;logTestResult($atd_TestCase,$i_Val)
+	;$i_Val = testReplaceModel()
+	;logTestResult($atd_TestCase,$i_Val)
 Else
 	Exit
 EndIf
-#cs
-$i_Val = testExportModel("DDM")
-logTestResult($atd_TestCase,$i_Val)
-#ce
+
 endLogging()

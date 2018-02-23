@@ -57,12 +57,12 @@ EndFunc
 
 Func testExportModel($fileType)
 	$atd_TestCase = "testExportModel"
-	Local $Uhandler = getUhandler()
+	Local $Uhandler = getModelInfor("上牙颌")
 	Local $Lhandler
 	If $Uhandler <>0 Then
 		$i_Val = exModel($Uhandler,$fileType)
 	Else
-		$Lhandler = getLhandler()
+		$Lhandler = getModelInfor("下牙颌")
 		If $Lhandler <>0 Then
 			$i_Val = exModel($Lhandler,$fileType)
 		;Else
@@ -73,4 +73,43 @@ Func testExportModel($fileType)
 		logTestResult($atd_TestCase,$i_Val)
 	EndIf
 	Return VerifyExportFile()
+EndFunc
+Func testDelModel()
+	$atd_TestCase = "testDelModel"
+	Local $Uhandler = getModelInfor("上牙颌")
+	Local $Lhandler
+	If $Uhandler <>0 Then
+		$i_Val = delModel($Uhandler)
+	Else
+		$Lhandler = getModelInfor("下牙颌")
+		If $Lhandler <>0 Then
+			$i_Val = delModel($Lhandler)
+		;Else
+			;$i_Val = exModel(,"STL")
+		EndIf
+	EndIf
+	;$i_Val = delModel()
+	If $i_Val = 0 Then
+		logTestResult($atd_TestCase,$i_Val)
+	EndIf
+	Return VerifyOpenFile()
+EndFunc
+Func testReplaceModel()
+	$atd_TestCase = "testReplaceModel"
+	Local $Uhandler = getModelInfor("上牙颌")
+	Local $Lhandler
+	If $Uhandler <>0 Then
+		$i_Val = replaceModel($Uhandler)
+	Else
+		$Lhandler = getModelInfor("下牙颌")
+		If $Lhandler <>0 Then
+			$i_Val = replaceModel($Lhandler)
+		;Else
+			;$i_Val = exModel(,"STL")
+		EndIf
+	EndIf
+	If $i_Val = 0 Then
+		logTestResult($atd_TestCase,$i_Val)
+	EndIf
+	Return VerifyOpenFile()
 EndFunc

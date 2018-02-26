@@ -32,13 +32,13 @@ Func openFile($filepath)
 		EndIf
 		Return $open_handle
 	Else                                             ;打开对话框失败
-		LogError("Failed to Open the FileDialog")
+		logInfo("Failed to Open the FileDialog")
 		Return 0
 	EndIf
 EndFunc
 ;存储文件
 Func saveFile()
-	Local $save_handle = WinWait($ATD_SaveAsDialog,"",$i_MaxTimeout)
+	Local $save_handle = WinWait($ATD_SaveAsDialog,"",$i_MinTimeout)
 	If $save_handle <>0 Then
 		logInfo("Sucessfully Open the SaveFileDialog")
 		Local $tmp = ControlGetText($save_handle,"","Edit1")
@@ -50,13 +50,13 @@ Func saveFile()
 			ControlClick($ATD_Rename,"","Button1")
 		EndIf
 	Else
-		LogError("Failed to Open the SaveFileDialog")
+		logInfo("Failed to Open the SaveFileDialog")
 	EndIf
 	Return $save_handle
 EndFunc
 ;提示信息处理
-Func tip()
-	Local $tip_handle = WinGetHandle($ATD_Tip)
+Func tip($tip_Title)
+	Local $tip_handle = WinGetHandle($tip_Title)
 	If $tip_handle<>0 Then
 		logInfo("Sucessfully give a tip;")
 		ControlClick($tip_handle,"","Button1")

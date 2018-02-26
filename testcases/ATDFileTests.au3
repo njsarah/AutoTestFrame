@@ -41,9 +41,6 @@ EndFunc
 Func testSaveFile()
 	$atd_TestCase = "testSaveFile"
 	$i_Val = ATDSaveFile()
-	If $i_Val = 0 Then
-		logTestResult($atd_TestCase,$i_Val)
-	EndIf
 	Return VerifySaveFile()
 EndFunc
 Func testCloseFile()

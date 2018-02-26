@@ -10,7 +10,7 @@
 
 ; Script Start - Add your code below here
 #RequireAdmin
-#include "..\ATDConstants.au3"
+;#include "..\ATDConstants.au3"
 #include "..\Common.au3"
 #include "..\excelData.au3"
 
@@ -73,7 +73,7 @@ EndFunc
 Func VerifyOpenFile()
 	If WinWait($ATD_Tip,"",$i_MinTimeout)<>0 Then     ;文件本身有问题造成打开失败
 		logInfo("The wrong with file:"&$filepath)
-		tip()
+		tip($ATD_Tip)
 		Return 0
 	ElseIf WinWait($ATD_Title,"",$i_MinTimeout)<>0 Then  ;成功打开文件
 		logInfo("Sucessfully open file:"&$filepath)

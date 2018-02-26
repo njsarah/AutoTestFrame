@@ -81,7 +81,7 @@ Func delModel($jaw_Handler)
 		_GUICtrlTreeView_ClickItem($treeH,$jaw_Handler,"right",True,1)
 		Local $pos = MouseGetPos()
 		MouseClick("",$pos[0]+9,$pos[1]+90)
-		Return tip()
+		Return tip($ATD_Tip)
 	Else
 		logError("The parameter is wrong!")
 		Return 0
@@ -96,7 +96,7 @@ Func replaceModel($jaw_Handler)
 		If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
 			Return openFile("C:\Users\dongqianqian\Desktop\Special\模型1\r1.ddm")
 		ElseIf WinWait($ATD_Tip,"",$i_MinTimeout)<>0 Then
-			tip()
+			tip($ATD_Tip)
 			If WinWait($ATD_SelectFile,"",$i_MinTimeout)<>0 Then
 				Return openFile("C:\Users\dongqianqian\Desktop\Special\模型1\r1.ddm")
 			Else
